@@ -1,0 +1,7 @@
+{
+    "MEDIAN_AGE": "\nThe median age have a positive effect on the number of crime incidents\n",
+    "T_STAT": "\nThe t-statistic is a ratio between difference of two features divide by the standard error\n\nIt is computed by dividing the difference between means and the standard error of the features chosen\n",
+    "P_VALUE": "\nSince this p-value of 12,8% is upper than 10%, it means that compare to the null hypothesis H0,\nthere's almost no real evidence that median age have an impact on crimes.\n\nIt is not under both of the 95% and 90% confidence intervals\n",
+    "INCREASE": "\nHolding all others regressors constant, each additional percentage of married couple reduces \nthe total number of indicidents in the affected district by 2115 points \n",
+    "LIMITATIONS": "\nSince we have a very small dataset of 12 rows and we choose many regressors, the model \nis too complex and have probably overfitted. The problem with this type of model is the generalisation\nto new data, it perform extremely well on training data but poorly on testing data.\n"
+}
